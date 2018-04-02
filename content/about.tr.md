@@ -1,9 +1,7 @@
 ---
-title: About
+title: Hakkımızda
 disableToc: true
 ---
-
-## Hakkımızda
 
 Pratisyen hekim & özgür yazılım geliştiricisi.Özgür yazılım ve açık kaynak sağlık hizmeti geliştirir, kurar ve sağlarım. Tıbbi uygulamanızın ya da kuruluşunuzun sağlık hizmeti bilgi sistemini güvenilir, güvenli, düşük fiyatlı ve etik yazılımla değiştirin.
 

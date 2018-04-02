@@ -18,13 +18,13 @@ home = [ "HTML", "RSS", "JSON"]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page. 
   # Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
-  editURL = ""
+  editURL = "https://github.com/freemedsoft/hugo/edit/master/content/"
   # Author of the site, will be used in meta information
   author = "Jérôme Pinguet"
   # Description of the site, will be used in meta information
   description = "FreeMedSoft, open source healthcare technology."
   # Shows a checkmark for visited pages on the menu
-  showVisitedLinks = false
+  showVisitedLinks = true
   # Disable search function. It will hide search bar
   disableSearch = false
   # Javascript and CSS cache are automatically busted when new version of site is generated. 
@@ -49,7 +49,7 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bullhorn'></i> About"
+name = "<i class='fa fa-fw fa-users'></i> About"
 url = "/about"
 weight = 30
 
@@ -62,6 +62,11 @@ weight = 40
 name = "<i class='fa fa-fw fa-twitter'></i> @medecinelibre"
 url = "https://twitter.com/medecinelibre"
 weight = 50
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 60
                                                            
 [Languages.fr]                             
 title = "Médecine Libre"
@@ -69,7 +74,7 @@ weight = 2
 languageName = "Français"
 
 [[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bullhorn'></i> A propos"
+name = "<i class='fa fa-fw fa-users'></i> A propos"
 url = "/about"
 weight = 30
 
@@ -85,6 +90,11 @@ name = "<i class='fa fa-fw fa-twitter'></i> @medecinelibre"
 url = "https://twitter.com/medecinelibre"
 weight = 50
 
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fa fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 60
+
 [Languages.tr]
 title = "FreeMedSoft"
 weight = 3
@@ -92,7 +102,7 @@ languageName = "Türkçe"
 
 
 [[Languages.tr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bullhorn'></i> Hakkımızda"
+name = "<i class='fa fa-fw fa-users'></i> Hakkımızda"
 url = "/about"
 weight = 30
 
@@ -105,3 +115,8 @@ weight = 40
 name = "<i class='fa fa-fw fa-twitter'></i> @medecinelibre"
 url = "https://twitter.com/medecinelibre"
 weight = 50
+
+[[Languages.tr.menu.shortcuts]]
+name = "<i class='fa fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 60
