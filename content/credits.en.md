@@ -10,7 +10,7 @@ J. Pinguet
 ### Translator
 
 #### Turkish
-[E. Ertem](https://www.freelancer.com.jm/u/shibumi)
+[E. Ertem](https://www.freelancer.com.jm/u/lagerthashair)
 
 ### Operating System
 
