@@ -1,8 +1,8 @@
-baseURL = "https://freemedsoft.com/"
-languageCode = "en"
-defaultContentLanguage = "en"
+baseURL = "https://medecinelibre.com/"
+languageCode = "fr"
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
-title = "FreeMedSoft"
+title = "Médecine Libre"
 
 enableEmoji = true
 metaDataFormat = "yaml"
@@ -44,9 +44,14 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]                                                                  
 [Languages.en]                
-title = "FreeMedSoft"
+title = "Médecine Libre"
 weight = 1
 languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-blogger'></i> Blog"
+url = "https://medecinelibre.com/blog"
+weight = 25
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-fw fa-users'></i> About"
@@ -54,12 +59,17 @@ url = "/about"
 weight = 30
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-fw fa-dollar'></i> COI"
+url = "/coi"
+weight = 35
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-fw fa-phone'></i> Phone"
 url = "/phone"
 weight = 40
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-twitter'></i> @medecinelibre"
+name = "<i class='fab fa-twitter'></i> @medecinelibre"
 url = "https://twitter.com/medecinelibre"
 weight = 50
 
@@ -78,6 +88,10 @@ name = "<i class='fa fa-fw fa-users'></i> A propos"
 url = "/about"
 weight = 30
 
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fa fa-fw fa-dollar'></i> DPI"
+url = "/coi"
+weight = 35
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fa fa-fw fa-phone'></i> Téléphone"
@@ -86,7 +100,7 @@ weight = 40
 
 
 [[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-twitter'></i> @medecinelibre"
+name = "<i class='fab fa-twitter'></i> @medecinelibre"
 url = "https://twitter.com/medecinelibre"
 weight = 50
 
@@ -96,7 +110,7 @@ url = "/credits"
 weight = 60
 
 [Languages.tr]
-title = "FreeMedSoft"
+title = "Médecine Libre"
 weight = 3
 languageName = "Türkçe"
 
@@ -112,7 +126,7 @@ url = "/phone"
 weight = 40
 
 [[Languages.tr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-twitter'></i> @medecinelibre"
+name = "<i class='fab fa-twitter'></i> @medecinelibre"
 url = "https://twitter.com/medecinelibre"
 weight = 50
 
